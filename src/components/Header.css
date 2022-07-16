@@ -1,0 +1,28 @@
+.header .container, .header .header_right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_right h1:first-child {
+    margin-right: 30px;
+}
+
+.header, .header a {
+    background-color: rgb(80, 111, 236);
+    color: rgb(235, 235, 235);
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header h1 {
+    margin: 0;
+    padding: 10px 15px;
+}
+
+.header h1:hover {
+    cursor: pointer;
+    background-color: rgb(73, 185, 230);
+}
